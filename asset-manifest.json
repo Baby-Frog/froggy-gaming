@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/froggy-gaming/static/css/main.c1f8d9f2.css",
+    "main.js": "/froggy-gaming/static/js/main.448687ae.js",
+    "index.html": "/froggy-gaming/index.html",
+    "main.c1f8d9f2.css.map": "/froggy-gaming/static/css/main.c1f8d9f2.css.map",
+    "main.448687ae.js.map": "/froggy-gaming/static/js/main.448687ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1f8d9f2.css",
+    "static/js/main.448687ae.js"
+  ]
+}
