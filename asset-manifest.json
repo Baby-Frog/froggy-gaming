@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/froggy-gaming/static/css/main.c1f8d9f2.css",
-    "main.js": "/froggy-gaming/static/js/main.448687ae.js",
+    "main.css": "/froggy-gaming/static/css/main.d9e91d83.css",
+    "main.js": "/froggy-gaming/static/js/main.4ff491b5.js",
+    "static/media/bootstrap-icons.woff?": "/froggy-gaming/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/bootstrap-icons.woff2?": "/froggy-gaming/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/Logo.png": "/froggy-gaming/static/media/Logo.586ed18e44269460061e.png",
     "index.html": "/froggy-gaming/index.html",
-    "main.c1f8d9f2.css.map": "/froggy-gaming/static/css/main.c1f8d9f2.css.map",
-    "main.448687ae.js.map": "/froggy-gaming/static/js/main.448687ae.js.map"
+    "main.d9e91d83.css.map": "/froggy-gaming/static/css/main.d9e91d83.css.map",
+    "main.4ff491b5.js.map": "/froggy-gaming/static/js/main.4ff491b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1f8d9f2.css",
-    "static/js/main.448687ae.js"
+    "static/css/main.d9e91d83.css",
+    "static/js/main.4ff491b5.js"
   ]
 }
