@@ -1,0 +1,74 @@
+@import "../../../../color/Color.css";
+
+.nav-container {
+  width: 100%;
+  height: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__logo img {
+  width: 80%;
+}
+
+.nav__page-router {
+  padding: 0 2%;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 5%;
+}
+
+.nav__page-router a {
+  color: var(--black);
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.25s;
+  font-size: 1.4vw;
+}
+
+.nav__page-router a:hover {
+  color: var(--red);
+  transition: 0.25s;
+}
+
+.nav__search-button {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button {
+  font-size: 1.4vw;
+  color: var(--black);
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  color: var(--red);
+  transition: 0.25s;
+}
