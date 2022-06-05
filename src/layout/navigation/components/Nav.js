@@ -17,7 +17,8 @@ const Nav = () => {
             <a href="##">store</a>
           </div>
           <div className="nav__search-button">
-            <i class="search-button bi bi-search"></i>
+            <i className="search-button bi bi-search"></i>
+            <i className="cart-button bi bi-bag"></i>
           </div>
         </div>
       </div>
