@@ -11,9 +11,9 @@ const Nav = () => {
             <img src={Logo} alt="Logo" />
           </div>
           <div className="nav__page-router">
-            <a href="##">home</a>
-            <a href="##">news</a>
-            <a href="##">gears</a>
+            <a href="##">Home</a>
+            <a href="##">News</a>
+            <a href="##">Gears</a>
             <a href="##">store</a>
           </div>
           <div className="nav__search-button">
