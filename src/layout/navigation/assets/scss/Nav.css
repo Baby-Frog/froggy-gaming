@@ -2,7 +2,6 @@
   font-family: "SpaceMission";
   src: url("../fonts/SpaceMission-rgyw9.otf");
 }
-
 html {
   font-size: 62, 5%;
 }
@@ -20,21 +19,17 @@ body {
   margin: 0 auto;
   height: 90px;
 }
-
 .header-invin-flex {
   opacity: 0;
   visibility: hidden;
   display: none;
 }
-
 .header-hamburger {
   display: none;
 }
-
 .header-hamburger-toggle {
   display: none;
 }
-
 .header-logo {
   display: flex;
   justify-content: center;
@@ -42,7 +37,6 @@ body {
   height: 100%;
   flex-shrink: 0;
 }
-
 .header-icon {
   height: auto;
   width: 70px;
@@ -50,7 +44,6 @@ body {
   align-self: center;
   justify-self: center;
 }
-
 .header-brand {
   display: flex;
   justify-content: center;
@@ -60,14 +53,12 @@ body {
   padding-left: 0.7rem;
   font-family: "SpaceMission";
 }
-
 .header-navigation {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-
 .header-navigation-list {
   list-style-type: none;
   flex-shrink: 1;
@@ -75,7 +66,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 .header-navigation-item {
   display: inline-block;
   font-size: 1.1rem;
@@ -86,15 +76,12 @@ body {
   cursor: pointer;
   transition: all 200ms linear;
 }
-
 .header-navigation-item:hover {
   color: #6d9c00;
 }
-
 .header-navigation-item:not(:first-child) {
   margin-left: 0.9rem;
 }
-
 .header-navigation-item--divider {
   border-left: 2px solid rgba(0, 0, 0, 0.1);
   height: 30px;
@@ -103,17 +90,14 @@ body {
   margin: 0 7.5px;
   cursor: default;
 }
-
 .header-navigation-item:nth-child(9) {
   position: relative;
 }
-
 .header-navigation-item:nth-child(9):hover .header-navigation-form {
   opacity: 1;
   visibility: visible;
   transform: translateY(1rem);
 }
-
 .header-navigation-item:nth-child(9)::after {
   content: "";
   position: absolute;
@@ -123,7 +107,6 @@ body {
   left: -1rem;
   cursor: default;
 }
-
 .header-navigation-cart {
   display: flex;
   justify-content: center;
@@ -131,11 +114,9 @@ body {
   position: relative;
   margin-left: 3rem;
 }
-
 .header-navigation-cart:hover .header-navigation-cart-number {
   background: #6d9c00;
 }
-
 .header-navigation-cart-number {
   position: absolute;
   color: white;
@@ -154,7 +135,6 @@ body {
   align-items: center;
   transition: all 200ms linear;
 }
-
 .header-navigation-form {
   visibility: hidden;
   opacity: 0;
@@ -173,7 +153,6 @@ body {
   width: 350px;
   z-index: 4;
 }
-
 .header-navigation-form-find {
   position: relative;
   width: 100%;
@@ -181,7 +160,6 @@ body {
   align-items: center;
   z-index: 4;
 }
-
 .header-navigation-form-input {
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.03);
@@ -195,25 +173,18 @@ body {
   box-shadow: none;
   border-color: rgba(0, 0, 0, 0.09);
 }
-
 .header-navigation-form-input::-moz-placeholder {
   font-size: 1rem;
-  font-weight: 100;
-  font-family: "Poppins";
+  font-weight: 400;
 }
-
 .header-navigation-form-input:-ms-input-placeholder {
   font-size: 1rem;
-  font-weight: 100;
-  font-family: "Poppins";
+  font-weight: 400;
 }
-
 .header-navigation-form-input::placeholder {
   font-size: 1rem;
-  font-weight: 100;
-  font-family: "Poppins";
+  font-weight: 400;
 }
-
 .header-navigation-form-label {
   position: absolute;
   top: 0.5rem;
@@ -243,60 +214,47 @@ body {
     margin-left: 2rem;
   }
 }
-
 @media screen and (max-width: 1188px) {
   .header-icon {
     width: 100px;
     height: auto;
   }
-
   .header-navigation-cart {
     margin-left: auto;
   }
-
   .header-brand {
     display: none;
   }
 }
-
 @media screen and (max-width: 987px) {
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
   .header-icon {
     width: 60px;
   }
-
   .header-navigation {
     display: none;
   }
-
   .header-navigation-list {
     display: none;
   }
-
   .header-brand {
     display: inline-flex;
     font-size: 1.2rem;
   }
-
   .header-invin-flex {
     opacity: 0;
     visibility: hidden;
     display: block;
   }
-
   .header-hamburger {
     display: block;
   }
-
   .header-hamburger-toggle {
     display: block;
     margin-left: 1rem;
   }
-}
-
-/*# sourceMappingURL=Nav.css.map */
+}/*# sourceMappingURL=Nav.css.map */

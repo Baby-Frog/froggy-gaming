@@ -1,25 +1,95 @@
-import React from "react";
-import "../assets/css/Nav.css";
-import Logo from "../assets/images/Logo.png";
+import ReactDOM from "react-dom";
+import Slider from "react-slick";
+import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { SearchOutline } from "react-ionicons";
+import { CartOutline } from "react-ionicons";
+import "../assets/scss/Nav.css";
+import Logo from "../assets/images/froggy-gaming-icon-2.png";
 
 const Nav = () => {
+  const ionIconStyle = { fontSize: "1.3rem" };
+  const cartIonIcon = { fontSize: "2.3rem" };
+  const searchIonIcon = {
+    position: "absolute",
+    fontSize: "1.3rem",
+    right: "1rem",
+    top: "0.45rem",
+    cursor: "pointer",
+  };
+  const fontAwesomeIconStyle = { fontSize: "1.3rem" };
   return (
     <>
-      <div className="nav-container">
-        <div className="nav">
-          <div className="nav__logo">
-            <img src={Logo} alt="Logo" />
-          </div>
-          <div className="nav__page-router">
-            <a href="##">Home</a>
-            <a href="##">News</a>
-            <a href="##">Gears</a>
-            <a href="##">store</a>
-          </div>
-          <div className="nav__search-button">
-            <i className="search-button bi bi-search"></i>
-            <i className="cart-button bi bi-bag"></i>
-          </div>
+      <div class="header">
+        <div class="header-hamburger-toggle">
+          <FontAwesomeIcon
+            icon={faBars}
+            style={fontAwesomeIconStyle}
+          ></FontAwesomeIcon>
+        </div>
+        <div class="header-logo">
+          <img src={Logo} alt="Logo" class="header-icon" />
+          <span class="header-brand">
+            Froggy
+            <br />
+            Gaming
+          </span>
+        </div>
+        <div class="header-invin-flex">
+          <p>hello</p>
+        </div>
+        <div class="header-navigation">
+          <ul class="header-navigation-list">
+            <li class="header-navigation-item">Tin tức</li>
+            <li class="header-navigation-item">Danh mục</li>
+            <li class="header-navigation-item">Bàn phím</li>
+            <li class="header-navigation-item">Chuột</li>
+            <li class="header-navigation-item">Tai Nghe</li>
+            <li class="header-navigation-item">Microphone</li>
+            <li class="header-navigation-item">Hỗ trợ</li>
+            <li class="header-navigation-item header-navigation-item--divider"></li>
+            <li class="header-navigation-item">
+              <SearchOutline
+                width="1.5rem"
+                height="1.5rem"
+                style={ionIconStyle}
+              ></SearchOutline>
+              <form class="header-navigation-form" autocomplete="off">
+                <div class="triangle"></div>
+                <div class="header-navigation-form-find">
+                  <input
+                    type="search"
+                    for="search"
+                    class="header-navigation-form-input"
+                    placeholder="Nhập vào sản phẩm muốn tìm"
+                  />
+                  <SearchOutline
+                    width="1.2rem"
+                    height="1.2rem"
+                    style={searchIonIcon}
+                  ></SearchOutline>
+                </div>
+              </form>
+            </li>
+
+            <li class="header-navigation-item">
+              <div class="header-navigation-contact">
+                <i class="fa-solid fa-user-gear"></i>
+              </div>
+            </li>
+            <li class="header-navigation-item">
+              <div class="header-navigation-cart">
+                <CartOutline
+                  width="2.3rem"
+                  height="2.3rem"
+                  style={cartIonIcon}
+                ></CartOutline>
+                <span>Giỏ hàng</span>
+                <div class="header-navigation-cart-number">1</div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </>
