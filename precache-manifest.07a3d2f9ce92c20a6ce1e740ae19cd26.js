@@ -36,20 +36,20 @@ self.__precacheManifest = [
     "url": "/froggy-gaming/static/media/SpaceMission-rgyw9.a3ade876.otf"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/froggy-gaming/static/media/slick.f97e3bbf.svg"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/froggy-gaming/static/media/slick.ced611da.eot"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/froggy-gaming/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/froggy-gaming/static/media/slick.d41f55a7.ttf"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/froggy-gaming/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/froggy-gaming/static/media/slick.ced611da.eot"
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/froggy-gaming/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "f6d6d1cdbbd323ea1e3c63b9f8f0a029",
