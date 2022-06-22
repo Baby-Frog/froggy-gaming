@@ -1,0 +1,43 @@
+:root {
+    --ratio: 2.74;
+}
+
+.image-slider {
+    z-index: 0;
+}
+
+.image-item {
+    height: 100%;
+    position: relative;
+}
+
+.image {
+    height: 0;
+    position: relative;
+    padding-bottom: calc(100% / (var(--ratio)));
+    overflow: hidden;
+    z-index: 0;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 500ms linear, transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    object-fit: cover;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
+
+.image img:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}

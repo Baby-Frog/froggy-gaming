@@ -31,9 +31,8 @@ const Nav = () => {
         <div class="header-logo">
           <img src={Logo} alt="Logo" class="header-icon" />
           <span class="header-brand">
-            Froggy
-            <br />
-            Gaming
+            <span>Froggy</span>
+            <span>Gaming</span>
           </span>
         </div>
         <div class="header-invin-flex">

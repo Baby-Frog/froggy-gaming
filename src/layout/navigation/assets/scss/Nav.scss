@@ -71,10 +71,12 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         height: 100%;
         font-size: 2rem;
         padding-left: 0.7rem;
         font-family: "SpaceMission";
+        line-height: 2rem;
     }
 
     &-navigation {
