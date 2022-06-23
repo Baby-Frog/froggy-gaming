@@ -1,10 +1,9 @@
-import ReactDOM from "react-dom";
-import Slider from "react-slick";
-import React, { Component } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { SearchOutline } from "react-ionicons";
 import { CartOutline } from "react-ionicons";
+import { faUserGear } from "@fortawesome/free-solid-svg-icons";
 import "../assets/scss/Nav.css";
 import Logo from "../assets/images/froggy-gaming-icon-2.png";
 
@@ -74,7 +73,10 @@ const Nav = () => {
 
             <li class="header-navigation-item">
               <div class="header-navigation-contact">
-                <i class="fa-solid fa-user-gear"></i>
+                <FontAwesomeIcon
+                  icon={faUserGear}
+                  style={fontAwesomeIconStyle}
+                ></FontAwesomeIcon>
               </div>
             </li>
             <li class="header-navigation-item">
