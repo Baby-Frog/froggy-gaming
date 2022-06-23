@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/froggy-gaming/precache-manifest.fc741df453e50b97d5f5f65f9e36cc13.js"
+  "/froggy-gaming/precache-manifest.305df2229e476c1bef3fc8d2633b0bfb.js"
 );
 
 workbox.clientsClaim();
