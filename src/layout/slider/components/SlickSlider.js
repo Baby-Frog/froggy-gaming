@@ -6,14 +6,10 @@ import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../assets/scss/slider.css";
 
-const SampleNextArrow = ({ currentSlide, slideCount, ...props }) => {
+const SampleNextArrow = () => {
   return (
-    <div className="NextArrow" {...props}>
-      <FontAwesomeIcon
-        className="i"
-        size="sm"
-        icon={faAngleRight}
-      ></FontAwesomeIcon>
+    <div className="NextArrow">
+      <FontAwesomeIcon className="i" icon={faAngleRight}></FontAwesomeIcon>
     </div>
   );
 };
