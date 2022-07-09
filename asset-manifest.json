@@ -1,7 +1,7 @@
 {
-  "main.css": "/froggy-gaming/static/css/main.4ae5523f.chunk.css",
-  "main.js": "/froggy-gaming/static/js/main.97c3f620.chunk.js",
-  "main.js.map": "/froggy-gaming/static/js/main.97c3f620.chunk.js.map",
+  "main.css": "/froggy-gaming/static/css/main.e30d1185.chunk.css",
+  "main.js": "/froggy-gaming/static/js/main.ed2f6dd6.chunk.js",
+  "main.js.map": "/froggy-gaming/static/js/main.ed2f6dd6.chunk.js.map",
   "static/css/1.4b6424d1.chunk.css": "/froggy-gaming/static/css/1.4b6424d1.chunk.css",
   "static/js/1.c833588b.chunk.js": "/froggy-gaming/static/js/1.c833588b.chunk.js",
   "static/js/1.c833588b.chunk.js.map": "/froggy-gaming/static/js/1.c833588b.chunk.js.map",
@@ -10,9 +10,9 @@
   "static/media/froggy-gaming-icon-2.png": "/froggy-gaming/static/media/froggy-gaming-icon-2.3a34b156.png",
   "static/media/bootstrap-icons.css": "/froggy-gaming/static/media/bootstrap-icons.b57a5890.woff2",
   "static/media/Nav.css": "/froggy-gaming/static/media/SpaceMission-rgyw9.a3ade876.otf",
-  "static/css/main.4ae5523f.chunk.css.map": "/froggy-gaming/static/css/main.4ae5523f.chunk.css.map",
+  "static/css/main.e30d1185.chunk.css.map": "/froggy-gaming/static/css/main.e30d1185.chunk.css.map",
   "static/css/1.4b6424d1.chunk.css.map": "/froggy-gaming/static/css/1.4b6424d1.chunk.css.map",
   "index.html": "/froggy-gaming/index.html",
-  "precache-manifest.fc4ae25ef92fbbbf1b26cbfa9a59ac83.js": "/froggy-gaming/precache-manifest.fc4ae25ef92fbbbf1b26cbfa9a59ac83.js",
+  "precache-manifest.b52dc8dfbb9869442c65a5ed00c0e01d.js": "/froggy-gaming/precache-manifest.b52dc8dfbb9869442c65a5ed00c0e01d.js",
   "service-worker.js": "/froggy-gaming/service-worker.js"
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "97c3f62036c4c464bff3",
-    "url": "/froggy-gaming/static/css/main.4ae5523f.chunk.css"
+    "revision": "ed2f6dd628621ccd68b2",
+    "url": "/froggy-gaming/static/css/main.e30d1185.chunk.css"
   },
   {
-    "revision": "97c3f62036c4c464bff3",
-    "url": "/froggy-gaming/static/js/main.97c3f620.chunk.js"
+    "revision": "ed2f6dd628621ccd68b2",
+    "url": "/froggy-gaming/static/js/main.ed2f6dd6.chunk.js"
   },
   {
     "revision": "c833588b686bdae3b051",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/froggy-gaming/static/media/SpaceMission-rgyw9.a3ade876.otf"
   },
   {
-    "revision": "c0aac81930a34289c829dab6e7380f84",
+    "revision": "26dea24efeddf4fab25ec9e81661510c",
     "url": "/froggy-gaming/index.html"
   }
 ];
