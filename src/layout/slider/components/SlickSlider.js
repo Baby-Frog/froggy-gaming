@@ -1,45 +1,57 @@
 import React, { Component } from "react";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
-import ArrowLeft from "@material-ui/icons/ArrowLeft";
-import ArrowRight from "@material-ui/icons/ArrowRight";
-import ButtonBase from "@material-ui/core/ButtonBase";
-
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../assets/scss/slider.css";
 
+function SampleNextArrow(props) {
+  const { onClick } = props;
+  return (
+    <div className="NextArrow" onClick={onClick}>
+      <i className="fa-solid fa-angle-right"></i>
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div className="PrevArrow" onClick={onClick}>
+      <i className="fa-solid fa-angle-left"></i>
+    </div>
+  );
+}
+
 class ReactCustomArrow extends React.Component {
-  renderArrows = () => {
-    return (
-      <div className="slider-arrow">
-        <ButtonBase
-          className="arrow-btn prev"
-          onClick={() => this.slider.slickPrev()}
-        >
-          <ArrowLeft />
-        </ButtonBase>
-        <ButtonBase
-          className="arrow-btn next"
-          onClick={() => this.slider.slickNext()}
-        >
-          <ArrowRight />
-        </ButtonBase>
-      </div>
-    );
-  };
   render() {
+    var settings = {
+      autoplay: true,
+      autoplaySpeed: 6000,
+      pauseOnHover: true,
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      cssEase: "linear",
+      draggable: false,
+      fade: true,
+      pauseOnDotsHover: true,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
+      responsive: [
+        {
+          breakpoint: 987,
+          settings: {
+            draggable: true,
+            arrows: false,
+          },
+        },
+      ],
+    };
     return (
       <div>
-        <div style={{ position: "relative", marginTop: "2rem" }}>
-          {this.renderArrows()}
-          <Slider
-            ref={(c) => (this.slider = c)}
-            dots={true}
-            arrows={false}
-            slidesToShow={1}
-          >
+        <div className="slick-render">
+          <Slider ref={(c) => (this.slider = c)} {...settings}>
             <div class="image-item">
               <div class="image">
                 <img

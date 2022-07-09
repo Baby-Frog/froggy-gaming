@@ -2,11 +2,8 @@
   --ratio: 2.74;
 }
 
-.i {
-  font-size: 1.5rem;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+i {
+  font-size: 1.3rem;
 }
 
 .image-slider {
@@ -48,17 +45,56 @@
   cursor: -webkit-grabbing;
 }
 
-.arrow-btn {
-  top: 45%;
-  z-index: 1;
+.PrevArrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid white;
+  margin-top: -22.5px;
+  text-align: center;
+  color: #FFF;
+  z-index: 5;
+  cursor: pointer;
+  transition: background 200ms linear, border 150ms linear;
+  outline: none;
 }
 
-.next {
-  float: right;
+.PrevArrow:hover {
+  background: #6d9c00;
+  border: 2px solid #6d9c00;
 }
 
-.arrow-btn:hover {
-  color: red;
+.NextArrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: -22.5px;
+  text-align: center;
+  color: #FFF;
+  z-index: 5;
+  cursor: pointer;
+  transition: background 200ms linear, border 150ms linear;
+  outline: none;
+}
+
+.NextArrow:hover {
+  background: #6d9c00;
+  border: 2px solid #6d9c00;
 }
 
 .slick-dots {
