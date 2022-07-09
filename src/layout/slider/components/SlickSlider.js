@@ -51,66 +51,64 @@ class ReactCustomArrow extends React.Component {
     };
     return (
       <div>
-        <div className="slick-render">
-          <Slider ref={(c) => (this.slider = c)} {...settings}>
-            <div class="image-item">
-              <div class="image">
-                <img
-                  src="https://akkogear.com.vn/wp-content/uploads/2021/12/akko_gw_03.jpg"
-                  alt=""
-                />
-              </div>
+        <Slider ref={(c) => (this.slider = c)} {...settings}>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://akkogear.com.vn/wp-content/uploads/2021/12/akko_gw_03.jpg"
+                alt=""
+              />
             </div>
-            <div class="image-item">
-              <div class="image">
-                <img
-                  src="https://akkogear.com.vn/wp-content/uploads/2022/05/ACRPRO_Banner_Upload.jpg"
-                  alt=""
-                />
-              </div>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://akkogear.com.vn/wp-content/uploads/2022/05/ACRPRO_Banner_Upload.jpg"
+                alt=""
+              />
             </div>
-            <div class="image-item">
-              <div class="image">
-                <img
-                  src="https://akkogear.com.vn/wp-content/uploads/2022/05/MOD008_banner_01.jpg"
-                  alt=""
-                />
-              </div>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://akkogear.com.vn/wp-content/uploads/2022/05/MOD008_banner_01.jpg"
+                alt=""
+              />
             </div>
-            <div class="image-item">
-              <div class="image">
-                <img
-                  src="https://akkogear.com.vn/wp-content/uploads/2021/11/akko-5108S-zaychik-banner-01.jpg"
-                  alt=""
-                />
-              </div>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://akkogear.com.vn/wp-content/uploads/2021/11/akko-5108S-zaychik-banner-01.jpg"
+                alt=""
+              />
             </div>
-            <div class="image-item">
-              <div class="image">
-                <img
-                  src="https://aerocool.io/wp-content/uploads/2019/10/EARL-Gaming-Chair-BG-1920x700-01_KV.jpg"
-                  alt=""
-                />
-              </div>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://aerocool.io/wp-content/uploads/2019/10/EARL-Gaming-Chair-BG-1920x700-01_KV.jpg"
+                alt=""
+              />
             </div>
-            <div class="image-item">
-              <div class="image">
-                <img
-                  src="https://akkogear.com.vn/wp-content/uploads/2022/04/z3354798047230_dff228a8cb13d117941e5d0f0eb113ac-2048x747.jpg"
-                  alt=""
-                />
-              </div>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://akkogear.com.vn/wp-content/uploads/2022/04/z3354798047230_dff228a8cb13d117941e5d0f0eb113ac-2048x747.jpg"
+                alt=""
+              />
             </div>
-            <div class="image-item">
-              <div class="image">
-                <img
-                  src="https://akkogear.com.vn/wp-content/uploads/2022/04/AKKO-3098B-3098N-Banner.jpg"
-                  alt=""
-                />
-              </div>
+          </div>
+          <div class="image-item">
+            <div class="image">
+              <img
+                src="https://akkogear.com.vn/wp-content/uploads/2022/04/AKKO-3098B-3098N-Banner.jpg"
+                alt=""
+              />
             </div>
-          </Slider>
-        </div>
+          </div>
+        </Slider>
       </div>
     );
   }
