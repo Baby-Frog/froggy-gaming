@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { onClick } = props;
   return (
     <div className="PrevArrow" onClick={onClick}>
       <i className="fa-solid fa-angle-left"></i>
@@ -32,7 +32,7 @@ class ReactCustomArrow extends React.Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      cssEase: "cubic-bezier(0.165, 0.54, 0.44, 1)",
+      cssEase: "cubic-bezier(0.7, 0.2, 0.6, 0.45)",
       draggable: false,
       fade: true,
       pauseOnDotsHover: true,
@@ -89,14 +89,6 @@ class ReactCustomArrow extends React.Component {
               <div class="image">
                 <img
                   src="https://aerocool.io/wp-content/uploads/2019/10/EARL-Gaming-Chair-BG-1920x700-01_KV.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="image-item">
-              <div class="image">
-                <img
-                  src="https://ae01.alicdn.com/kf/Hf96f47951f794680bf4e4916bbffb3227.jpg"
                   alt=""
                 />
               </div>
