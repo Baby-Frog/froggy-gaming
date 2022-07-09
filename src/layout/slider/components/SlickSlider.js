@@ -32,7 +32,7 @@ class ReactCustomArrow extends React.Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      cssEase: "linear",
+      cssEase: "cubic-bezier(0.165, 0.54, 0.44, 1)",
       draggable: false,
       fade: true,
       pauseOnDotsHover: true,
@@ -44,6 +44,7 @@ class ReactCustomArrow extends React.Component {
           settings: {
             draggable: true,
             arrows: false,
+            fade: false,
           },
         },
       ],
