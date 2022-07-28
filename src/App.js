@@ -8,8 +8,8 @@ const App = () => {
   return (
     <>
       <div className="App">
-        <Nav />
-        <SlickSlider />
+        <Nav></Nav>
+        <SlickSlider></SlickSlider>
       </div>
     </>
   );

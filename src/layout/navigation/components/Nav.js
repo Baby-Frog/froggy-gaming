@@ -5,7 +5,7 @@ import { SearchOutline } from "react-ionicons";
 import { CartOutline } from "react-ionicons";
 import { faUserGear } from "@fortawesome/free-solid-svg-icons";
 import "../assets/scss/Nav.css";
-import Logo from "../assets/images/froggy-gaming-icon-2.png";
+import Logo from "../assets/images/froggy-gaming-logo.png";
 
 const Nav = () => {
   const ionIconStyle = { fontSize: "1.3rem" };
